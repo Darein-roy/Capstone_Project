@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="Resources" href="/Resources/">
+</head>
+<body>
+    <div class="home-container">
+        <header class="header">
+            <div class="logo">
+                <p>Logo</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#"></a>Home</li>
+                    <li class="nav-list-item"><a href="#"></a>About</li>
+                    <li class="nav-list-item"><a href="#"></a>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <form class="Search-container">
+            <input type="text" id="city" placeholder="Enter city name" />
+            <button id="searchBtn">Search</button>
+            
+        </form>
+        <div class="content-container">
+            <div class="weather-display-div">
+               <h1>weather display</h1>
+               <div class="weather-display" id="weather-display"></div>
+            </div>
+            <div class="fun-facts">
+               <h2>Fun facts about weather</h2>
+            </div>
+        </div>
+    </div>
+    <div class="about-us-container">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Rerum quidem, cupiditate ad blanditiis, eum porro dolor 
+            fugit quam voluptatem temporibus nulla facere doloremque 
+            nisi aspernatur debitis dignissimos molestias aliquid saepe.
+        </p>
+        <div class="team">
+            <div class="team-member">
+                <img src="/Resources/Mark.png" alt="Mark">
+                <p>
+                    Name : Mark White
+                    Title: MD
+                </p>
+            </div>
+            <div class="team-member">
+                <img src="/Resources/Rogus.png" alt="Rogus">
+                <p>
+                    Name : Rogus Out
+                    Title: Specialist
+                </p>
+            </div>
+            <div class="team-member">
+                <img src="/Resources/Fiona.png" alt="Fiona">
+                <p>
+                    Name : Fiona Amina
+                    Title: Weather wizard
+                </p>
+            </div>
+            <div class="team-member">
+                <img src="/Resources/Flat head.png" alt="Flat head">
+                <p>
+                    Name : Flat head
+                    Title: Specialist
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us-container">
+        <h1>Contact us</h1>
+        <form>
+            <label class="name">Name</label>
+            <input type="text" id="name">
+            <label class="email">Email</label>
+            <input type="email" id="email">
+            <label class="massage">Massage</label>
+            <textarea id="massage"></textarea>
+        </form>
+    </div>
+    <footer>
+        <div class="logo">
+            <h3>Logo</h3>
+        </div>
+        <div>
+            <img src="/Resources/Facebook.png">
+            <img src="/Resources/Twitter_White.png">
+            <img src="/Resources/Instagram_White.png">
+        </div>
+        <p>&copy; George 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
