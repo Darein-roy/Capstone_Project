@@ -1,0 +1,108 @@
+/* === GOOGLE FONT IMPORT === */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* === VARIABLES === */
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #d9d9d9;
+}
+
+/* === CSS PRESETS === */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.home-container {
+    background-image: url(./Resources/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:fit-content;
+}
+
+/* === Header section === */
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+}
+
+.nav-list {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+/* === Search section === */
+.search-container {
+    max-width: 600px;
+    margin: 50px 100px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto 10px auto 500px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-display {
+    margin-top: 20px;
+    text-align:center;
+    color:#0e0d0d;
+    font-weight: 600;
+}
+
+.weather-display img {
+    width: 100px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    padding-bottom: 200px;
+    border: var(--black);
+}
+.weather-display-div {
+    background-color: #ccc;
+    padding: 20px 50px 70px;
+    flex: 60%;
+    opacity: calc(0.5);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.weather-display-div h2 {
+    color:#000000;
+    opacity: calc(1);
+}
+.fun-facts {
+    background-color:aqua;
+    opacity:calc(0.2);
+    
+}
