@@ -1,7 +1,9 @@
 const apiKey = "e4731f172418ed13a2dc73af47f8d4f0";
 const weatherDisplay = document.getElementById('weather-display');
 
-document.getElementById('searchBtn').addEventListener('click', () => {
+document.getElementById('searchBtn').addEventListener('click', (event) => {
+    event.preventDefault();
+    
     const city = document.getElementById('city').value.trim();
     if (city) {
         getWeatherData(city);
