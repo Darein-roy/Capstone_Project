@@ -126,14 +126,18 @@ button:hover {
     text-align: center;
 }
 
-.about-us-container h1 {
+.about-us-container > h1 {
     margin-bottom:10px;
 }
 
+.about-us-container > p {
+    margin: 10px 10px;
+    padding: 10px 120px;
+}
 
 .team {
     display:flex;
-    margin: 30px 100px;
+    margin: 30px 150px;
     justify-content: space-around;
     gap: 2px;
     
@@ -143,12 +147,45 @@ button:hover {
     margin-right: 0px;
 }
 .team-member img {
-    max-width: 40%;
+    max-width: 90%;
     
 }
 
 .team-member p {
-    font-size:x-small;
+    font-size:small;
     text-align: left;
+}
 
+.contact-us-container {
+    background-image: url(./Resources/Background\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height:fit-content;
+}
+.contact-us-container > h1 {
+    color: var(--white);
+    text-align: center;
+    margin: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 200px;
+    padding: auto 10px;
+
+}
+.contact > input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto 5px auto 0px;
+}
+#massage {
+    margin-bottom: 300px;
+    padding: 30px;
 }
