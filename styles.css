@@ -116,5 +116,39 @@ button:hover {
     background-color:aqua;
     opacity:calc(0.2);
     padding-top: 10px;
+}
+
+/* === About us section styles === */
+.about-us-container {
+    margin: 50px 20px;
+}
+.about-us-container > h1,p {
+    text-align: center;
+}
+
+.about-us-container h1 {
+    margin-bottom:10px;
+}
+
+
+.team {
+    display:flex;
+    margin: 30px 100px;
+    justify-content: space-around;
+    gap: 2px;
     
+}
+.team-member {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.team-member img {
+    max-width: 40%;
+    
+}
+
+.team-member p {
+    font-size:x-small;
+    text-align: left;
+
 }
