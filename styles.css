@@ -189,3 +189,41 @@ button:hover {
     margin-bottom: 300px;
     padding: 30px;
 }
+
+/* === Footer section === */
+.footer {
+    background-color:#ccc;
+    padding: 20px 0;
+    margin-bottom:20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap:12px;
+    color: var(--gray);
+    margin: 20px;
+}
+
+.social-links .logo {
+    cursor: pointer;
+    color: var(--white);
+    width:20px;
+}
+
+.footer-logo {
+    width: 7rem;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--black);
+    opacity: 0.6;
+    font-size: 12px;
+}
